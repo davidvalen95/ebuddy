@@ -30,8 +30,6 @@ the sweet spot between requirement and performance consideration is to update on
 
 ### Criteria
 
-to give the ultimate scoring towards a user by some set of criteria, we can use `multiplication factor by 10` for each of the criteria. The higher the priority will be multiplied by bigger factor
-
 #### 1. Total Average Weight
 the highest priority, but also having the smallest  maximum number among other criteria (max out of 5) hence need to be multiplied by factor of `10 000`
 
