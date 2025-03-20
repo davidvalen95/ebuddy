@@ -8,8 +8,9 @@
     "start": "node dist/index.js",
     "dev": "cross-env IS_DEVELOPMENT=true nodemon src/index.ts  ",
     "test": "echo test",
-    "firebaseEmulatorDevelopment": "firebase emulators:start --project demo-ebuddy  ",
-    "firebaseFunctionOnlyChallenge": "npm run build && firebase emulators:start --project demo-ebuddy --only functions,firestore "
+    "installFunction": "cd functions && npm i ",
+    "firebaseEmulatorDevelopment": "npm run installFunction && firebase emulators:start --project demo-ebuddy  ",
+    "firebaseFunctionOnlyChallenge": "npm run installFunction && npm run build && firebase emulators:start --project demo-ebuddy --only functions,firestore "
   },
   "keywords": [],
   "author": "",
