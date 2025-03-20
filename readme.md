@@ -6,14 +6,15 @@
 
 project was created with node 22
 #### For the challenge 
->[!QUOTE] 
 >Make FE repo able to test API calling locally using Firebase Emulator if I  
   `run npm run build && firebase emulators:start --only functions` on BE repo
 
  i have added `--only functions,firestore` 
 
-> `npm i `
-> `turbo firebaseFunctionOnlyChallenge` 
+```
+npm i 
+turbo firebaseFunctionOnlyChallenge
+```
 
 frontend is served at `http://localhost:3000`
 backend is served at `http://127.0.0.1:5009/demo-ebuddy/asia-east1/api`
