@@ -42,7 +42,7 @@ this criteria could be having uncapped maximum number, hence to be multiplied by
 This criteria is unique because we get the big integer number. hence to get accurate scoring, what we can do is to get the `hour difference to now`. Since the criteria is the smaller the better thus this become a penalty and a deduction
 
 ### example
-``` json
+``` javascript
 // USER A
 {
   totalAverageWeightRatings: 4.3,  
@@ -52,7 +52,7 @@ This criteria is unique because we get the big integer number. hence to get accu
 ```
 User A = (4.3 * 10000) + (30 * 2) - 5 =  **43 055**
 
-``` json
+``` javascript
 // USER B
 {
   totalAverageWeightRatings: 4.3,  
