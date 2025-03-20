@@ -11,12 +11,13 @@ project was created with node 22
 
  i have added `--only functions,firestore` 
 
-```
+``` bash
 npm i 
 turbo firebaseFunctionOnlyChallenge
 ```
 
 frontend is served at `http://localhost:3000`
+
 backend is served at `http://127.0.0.1:5009/demo-ebuddy/asia-east1/api`
 
 
